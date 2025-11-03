@@ -1,6 +1,8 @@
 # patched-flash_attn-2.6.3-for-dgx-spark
 patched flash_attn wheel for dgx spark, arm archtecture
 
+** DO NOT USE IT ON JETSON, YOU MAY BREAK IT **
+
 system:
 DGX spark GB10 sm201
 using torch 2.9.0, cp312, cu130:
