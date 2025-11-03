@@ -20,3 +20,6 @@ tested on wan 2.2 it works
 <img width="808" height="384" alt="QQ_1762153070869" src="https://github.com/user-attachments/assets/5e5bb515-b400-45ed-9674-98a56766fead" />
 
 If you have any questions, feel free to post them as issues, I would help. 
+
+Also included the arm64 decord package, well, this is also needed for wan2.2, compiled from source, in case you are also trying wan2.2<br>
+if you are not using wan2.2, you don't need that decord wheel
