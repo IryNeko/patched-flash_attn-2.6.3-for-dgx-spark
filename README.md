@@ -1,5 +1,5 @@
-# patched-flash_attn-2.6.3-for-dgx-spark
-patched flash_attn wheel for dgx spark, arm archtecture
+# patched-flash_attn-2.8.3-for-dgx-spark
+precompiled flash_attn wheel for dgx spark, arm archtecture
 
 ** DO NOT USE IT ON JETSON, YOU MAY BREAK IT **
 
@@ -8,8 +8,8 @@ DGX spark GB10 sm201
 using torch 2.9.0, cp312, cu130:
 https://download.pytorch.org/whl/cu130/torch-2.9.0%2Bcu130-cp312-cp312-manylinux_2_28_aarch64.whl.metadata
 
-modified the flash_attn 2.6.3, removed the version checks, then added the sm_201 to use the 80 set of instructions
-just a workaround before flash_att 4 beta release
+modified the flash_attn 2.8.3, adjusted setup.py to add sm_201 to use the 80 set of instructions, so it works on gb10
+no longer a workaround, it works now
 
 if you think I want to mine some crypto with your machine, then do it yourself, 
 make the changes base on my post then compile them from source
