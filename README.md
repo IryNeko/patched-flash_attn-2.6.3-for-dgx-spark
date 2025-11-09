@@ -8,7 +8,7 @@ DGX spark GB10 sm201
 using torch 2.9.0, cp312, cu130:
 https://download.pytorch.org/whl/cu130/torch-2.9.0%2Bcu130-cp312-cp312-manylinux_2_28_aarch64.whl.metadata
 
-modified the flash_attn 2.8.3, adjusted setup.py to add sm_201 to use the 80 set of instructions, so it works on gb10
+modified the flash_attn 2.8.3, adjusted setup.py to add sm_121 to use the 80 set of instructions, so it works on gb10
 no longer a workaround, it works now
 
 if you think I want to mine some crypto with your machine, then do it yourself, 
